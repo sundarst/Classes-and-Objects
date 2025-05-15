@@ -29,7 +29,14 @@ public class EmployeeDto {
 		 EmployeeDto.employeeSalary=employeeSalary;
 	 }
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	 EmployeeDto emp = new EmployeeDto();
+        emp.setEmployeeId(101);
+        emp.setEmployeeName("John Doe");
+        emp.setEmployeeSalary("50000");
+
+        System.out.println("Employee ID: " + emp.getEmployeeId());
+        System.out.println("Employee Name: " + emp.getEmployeeName());
+        System.out.println("Employee Salary: " + emp.getEmployeeSalary());
 
 	}
 
